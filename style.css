@@ -1,0 +1,87 @@
+/* start page */
+
+
+/* start ladfing */
+
+.landing {
+    background-image: url(images/hearder.jpg);
+    width: 100%;
+    background-size: cover;
+    min-height: 50vh;
+    padding: 30px;
+}
+
+.landing .content {
+    border-radius: 20px;
+}
+
+.about {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.page .service {
+    background-image: url(images/service.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.after-servcie {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.info {
+    background-image: url(images/sub_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.info .continer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 15px;
+}
+
+.end {
+    background-image: url(images/service.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.end .row ul {
+    list-style: none;
+}
+
+.end .row ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.end .row ul li a.active {
+    color: gold;
+}
+
+.end .row ul li a:hover {
+    color: gold;
+}
+
+
+/* end landing */
+
+
+/* end page */
